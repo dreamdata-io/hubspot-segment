@@ -7,8 +7,5 @@ window.addEventListener('hsvalidatedsubmit', function (e) {
             email: email
         });
     }
-
-    // Track the event and include values from the form to our event props
     analytics.track('formSubmit');
-
 }, false);
